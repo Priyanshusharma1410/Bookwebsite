@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
 }
-
+#website{
+    overflow: hidden;
+    background-color: red;
+    border: 2px soild orange;
+}
 #H1 {
-    width: 100vw;
-    height: 6.5vh;
+    /* width: 100vw; */
+    /* height: 6.5vh; */
     padding: 20px 14px 20px 14px;
     background-color: rgb(244, 244, 233);
     display: flex;
@@ -50,7 +54,7 @@
 
 }
 #search-box{
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 8px;
 
 }
@@ -71,7 +75,7 @@
 
 #icons h4 {
     margin-right: 12px;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
 }
 
 #icons h4:hover {
@@ -79,7 +83,7 @@
 
 }
 #searchbar{
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 #searchbar:hover {
     background-color: rgb(27, 174, 135);
@@ -87,23 +91,21 @@
 
 }
 #con {
-
-    width: 100vw;
     display: flex;
-
+    min-height: 600px;
 }
 
 #con1 {
-    background-color: rgb(244, 244, 233);
-    height: 300px;
+    background-color: rgb(155, 155, 92);
     padding: 50px 50px 50px 50px;
+    width: 40%;
 
 }
 
 #con1 h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 545;
-    font-size: 35px;
+    font-weight: 600;
+    font-size: 45px;
     margin-top: 40px;
     margin-left: 15px;
     margin-bottom: 5px;
@@ -114,8 +116,8 @@
     margin-top: 20px;
     margin-left: 15px;
     margin-bottom: 5px;
-    font-size: 14px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
 
 }
@@ -130,26 +132,28 @@
     margin-top: 20px;
     margin-left: 15px;
     margin-bottom: 10px;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 #con1 button:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 #con2 {
-    width: 50%;
-    background-color: rgb(244, 244, 233);
-    padding: 50px 50px 50px 50px;
-    display: flex;
-    overflow-x: visible;
+    /* width: 50%; */
+    background-color: rgb(132, 53, 172);
+    padding: 0px 0px 50px 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60%;
+    
 }
 
 #con2 img {
-    margin-top: 30px;
+    padding-top: 100px;
     margin-right: 12px;
-    width: 150px;
-    height: 270px;
+    width: 23%;
+    height: 70%;
 }
 
 #right::-webkit-scrollbar {
@@ -158,8 +162,8 @@
 
 #P2 {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 60px;
     margin-bottom: 60px;
 }
@@ -203,27 +207,29 @@
 
 #BOX {
     display: flex;
-    margin-right: 20px;
-    margin-left: 200px;
-    margin-bottom: 80px;
+    /* flex-wrap: wrap; */
+    border: 2px solid black;
+    background-color: red;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #Featured {
-    margin-right: 10px;
-    margin-top: 30px;
-    width: 200px;
-    height: 300px;
+    min-height: 600px;
     background-color: rgb(255, 255, 255);
-    margin-bottom: 25px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 #book-2 {
     margin-top: 25px;
     margin-left: 40px;
-
-    width: 120px;
-    height: 200px;
+    width: 270px;
+    height: 380px;
 
 
 }
@@ -257,32 +263,35 @@
 }
 
 #page-3 {
-    width: 100%;
-    height: 450px;
     display: flex;
     background-color:rgb(244, 244, 233);
 }
 
 #p-31 {
     width: 50%;
-    background-color: rgb(244, 244, 233);
-    padding:70px 40px 50px 60px;
+    min-height: 500px;
+    margin: 120px 0px 70px 50px; 
+    
+    /* background-color: rgb(151, 151, 34); */
 }
 
 #p-31 h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 30px;
     margin-left: 30px;
+    font-size: 35px;
 }
 #p-31 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 30px;   
     margin-top: 5px;
+    font-size: 50px;
 }
 #p-31 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 30px;
     margin-top: 5px;   
+    font-size: 35px;
 }
 #p-31 button{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -290,10 +299,9 @@
     margin-top: 10px; 
     background-color: #219150;
     border-radius: 7px;
-    border-color: #219150;
     color:white;
     padding: 2px;
-    font-size: 11px;
+    font-size: 26px;
     border-color: #27ae27;
 }
 #p-31 button:hover{
@@ -302,15 +310,16 @@
 
 #p-32 {
     width: 50%;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center; 
-    padding: 90px 60px:
+    
 } 
 
 #p-32 img {
-    width: 250px;
-    height:350px;
+    width: 60%;
+    height:80%;
 } 
 #off:hover{
     /* hover */
